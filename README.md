@@ -23,6 +23,21 @@ The following events are reported in the simulated scenario:
 - An outbound email containing a customer spreadsheet was reportedly sent to 40 external recipients.
 
 These events require validation against source records before compromise or data exposure can be considered confirmed.
+## Simulated Phishing Email
+
+The image below represents the suspicious email described in this scenario.
+
+![Simulated phishing email](evidence/simulated-phishing-email.jpeg)
+
+**Initial observations:**
+- The sender address contains a character substitution: `micr0soft-example.com`.
+- The subject creates urgency by threatening Microsoft 365 account suspension.
+- The message imposes a 30-minute deadline to pressure the recipient into acting quickly.
+- The message includes a suspicious login URL.
+
+These indicators warrant investigation. The email's appearance alone does not establish whether a recipient clicked the link or whether an account was compromised.
+
+*Note: This is a synthetic training artifact, not an email collected from a real incident.*
 
 ## 2. Alert Triage
 
