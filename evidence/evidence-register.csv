@@ -1,0 +1,8 @@
+evidence_id,evidence_item,potential_source,purpose,status
+E001,Original phishing email and full headers,Email platform or security gateway,Verify sender details and authentication results,Pending - simulated case
+E002,Suspicious URL and redirect information,Email security tools or safe analysis environment,Assess the destination and phishing indicators,Pending - simulated case
+E003,Recipient and click records,Email security telemetry,Identify affected users and establish click activity,Pending - simulated case
+E004,Identity sign-in logs,Identity provider or Microsoft 365 audit sources,Validate unfamiliar sign-in and authentication details,Pending - simulated case
+E005,Mailbox forwarding rule and audit history,Mailbox audit logs,Determine when the rule was created and by whom,Pending - simulated case
+E006,Outbound message trace and recipient details,Email platform,Establish delivery status and assess possible data disclosure,Pending - simulated case
+E007,Incident response action records,Incident ticketing system,"Document containment, investigation and escalation",Pending - simulated case

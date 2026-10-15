@@ -1,0 +1,8 @@
+timestamp_eat,event,status,evidence_to_validate
+06/10/2026 08:42,Phishing email sent to 25 employees,Scenario-reported,Email gateway logs and message trace
+06/10/2026 08:49,First reported link click,Scenario-reported,Email security click telemetry and endpoint/browser evidence
+06/10/2026 08:53,Credential submission reportedly occurred,Scenario-reported,Identity provider logs and user confirmation
+06/10/2026 08:56,Successful sign-in from unfamiliar IP reported,Scenario-reported,Identity sign-in logs and authentication details
+06/10/2026 08:58,New mailbox forwarding rule reported,Scenario-reported,Mailbox audit logs and rule configuration
+06/10/2026 09:02,Outbound email containing customer spreadsheet reportedly sent to 40 external recipients,Scenario-reported,"Message trace records, recipient list, delivery status and attachment details"
+06/10/2026 09:05,Security team alert received,Scenario-reported,Alert record and incident ticket
